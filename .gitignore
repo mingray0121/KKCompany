@@ -1,0 +1,12 @@
+# 忽略 Mac 系統幽靈檔
+.DS_Store
+
+# 忽略 Jupyter Notebook 暫存紀錄
+.ipynb_checkpoints/
+
+# 忽略 Python 暫存編譯檔
+__pycache__/
+*.pyc
+
+# 忽略大型資料檔（避免把幾百 MB 的資料夾推上 GitHub）
+data/
